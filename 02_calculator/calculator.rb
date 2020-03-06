@@ -26,3 +26,21 @@ def multiply array
     end
     sum
 end
+
+def power x, y
+    sum = 1
+    while (y > 0)
+        sum = sum * x
+        y = y - 1
+    end
+    sum
+end
+
+def factorial x
+    sum = 1
+    while (x > 0)
+        sum = sum * x
+        x = x -1
+    end
+    sum
+end
